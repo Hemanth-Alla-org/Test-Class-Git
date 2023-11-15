@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: appv2
+    labels:
+       app: appv2
+spec:
+   container:
+      - name: appv2
+        image: devopsyogi/nareshit:appv1
+        ports:
+          -containerPort: 80
