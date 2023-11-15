@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: devopsyogi/nareshit:appv1
+        image: devopsyogi/nareshit:appv2
         ports:
         - containerPort: 80
