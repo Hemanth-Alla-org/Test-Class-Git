@@ -5,7 +5,7 @@ metadata:
     labels:
        app: appv2
 spec:
-   container:
+   containers:
       - name: appv2
         image: devopsyogi/nareshit:appv1
         ports:
